@@ -26,3 +26,20 @@ Both students and staff have auto-generated usernames and passwords for easy log
 
 Admin Dashboard
 The admin has full control over the system through an intuitive dashboard that provides access to all management features.
+React.js
+Frontend framework for building the UI.
+
+Node.js & Express
+Backend server for API handling and authentication.
+
+MongoDB
+A NoSQL database for storing student, staff, department, course, and subject information.
+
+Socket.io
+Real-time communication between students and teachers for chatting.
+
+Material UI
+A responsive UI library to make the app look modern and user-friendly.
+
+Contributing
+Feel free to fork this project and submit pull requests. Please follow the existing code style and write clear, descriptive commit messages.
