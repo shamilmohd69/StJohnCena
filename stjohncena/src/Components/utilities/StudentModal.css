@@ -1,0 +1,140 @@
+.divmodal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.divmodal .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+}
+
+.divmodal .modal-content .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.divmodal .modal-content .modal-header h5 {
+    margin: 0;
+}
+.divmodal .modal-content2 {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 800px;
+    max-width: 90%;
+    position: relative;
+}
+
+.divmodal .modal-content2 .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.divmodal .modal-content2 .modal-header h5 {
+    margin: 0;
+}
+
+.btn-approve{
+    background-color: rgb(0, 100, 0);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.btn-reject{
+    background-color: rgb(100, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.divmodal .label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.divmodal .label1 {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.divmodal .modal-content .label input,
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.divmodal .modal-content .label1 input,
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+
+
+.divmodal .modal-content .input:disabled,
+select:disabled {
+    color: black;
+}
+
+.divmodal .modal-content .modal-submit {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 0, 0);
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.divmodal .modal-content .modal-delete {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.divmodal .modal-content .modal-action {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}

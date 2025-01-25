@@ -1,0 +1,279 @@
+.admin {
+    background-color: rgb(20, 20, 20);
+    min-height: 100vh;
+}
+
+.admin .title h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+.admin .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar-open {
+    margin-left: 300px;
+}
+
+.sidebar-closed {
+    margin-left: 60px;
+}
+
+
+.admin .div0 {
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+.admin .div0 .d1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin .add {
+    background-color: rgb(70, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 7.5px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: min-content;
+    align-items: center;
+    margin-top: auto;
+}
+
+.adhome .std {
+    background-color: black;
+    width: 60%;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    display: flex;
+    cursor: pointer;
+}
+
+.adhome .stdleft {
+    width: 40%;
+}
+
+.adhome .std .std1 {
+    width: 100%;
+    background-color: #1a0034;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.adhome .std .stdright {
+    padding: 10px;
+    padding-right: 0px;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.adhome .dept {
+    background-color: black;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    display: flex;
+}
+
+.admin .deptleft {
+    width: 100%;
+}
+
+.adhome .dept .dept1 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.adhome .dept .dept1 .d1 {
+    background-color: #001e59;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+
+.adhome .dept .dept1 .d2 {
+    background-color: #003400;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.adhome .staff1 {
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    align-items: flex-start; 
+    padding: 10px;
+    overflow: hidden; 
+}
+
+.admin .staff2 {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: black;
+    max-height: 170px;
+}
+
+.adhome .staff2 .staffleft {
+    width: 40%;
+}
+
+.adhome .staff2 .staffleft .s1 {
+    background-color: #1a0034;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.adhome .staff2 .staffright {
+    width: 60%;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.adhome .comp {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: black;
+    max-height: 170px;
+}
+
+.adhome .comp .cmp {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.adhome .comp .cmp .c1 {
+    background-color: #001e59;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.adhome .comp .cmp .c2 {
+    background-color: #003400;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+.admin progress {
+    width: 100%;
+    height: 10px;
+    appearance: none;
+}
+
+.admin progress::-webkit-progress-bar {
+    background-color: #c70063;
+    border-radius: 8px;
+}
+
+.admin progress::-webkit-progress-value {
+    background-color: #003399;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.addpt .div1 {
+    display: flex;
+    gap: 20px;
+}
+
+.addpt .dept {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addpt .ul1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.addpt .ul1 li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.chngpass .input {
+    padding: 7.5px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.901);
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.chngpass .form {
+    display: "flex";
+    flex-direction: "column";
+    width: 50%;
+    background-color: white;
+    color: rgb(70, 0, 0);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chngpass {
+    display: flex;
+    justify-content: center;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.show-password-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}

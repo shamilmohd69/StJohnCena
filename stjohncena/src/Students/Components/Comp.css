@@ -1,0 +1,178 @@
+.msgfrnd {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    border-radius: 10px;
+}
+
+.msgfrnd .messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+
+
+.msgfrnd .received,
+.sent {
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+.msgfrnd .received {
+    align-self: flex-start;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.msgfrnd .sent {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.msgfrnd .input-container {
+    display: flex;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.msgfrnd input {
+    border: none;
+    background-color: rgb(198, 198, 198);
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.msgfrnd .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.msgfrnd .send-button:hover {
+    background-color: #0056b3;
+}
+
+.msgfrnd .name {
+    text-align: center;
+    padding: 10px;
+    background-color: #002b59;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+.notes {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 81vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(10, 10, 10);
+}
+
+.notes hr{
+    margin-bottom: 0px;
+}
+
+.notes .cnt {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.doubts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.doubts .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 1000px;
+    max-width: 90%;
+    position: relative;
+    max-height: 500px;
+}
+
+.doubts .modal-content .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.doubts .modal-content .modal-header h5 {
+    margin: 0;
+}
+
+.doubts .label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.doubts .modal-content p{
+    margin-bottom: 0px;
+}
+
+.doubts .modal-content .comments p{
+    margin-bottom: 10px;
+}
+
+.doubts .modal-content .label input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+
+.doubts .modal-content .modal-submit {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(70, 0, 0);
+    color: white;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.doubts .modal-content .comments {
+    overflow-y: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    scrollbar-width: none;
+    margin-bottom: 10px;
+}

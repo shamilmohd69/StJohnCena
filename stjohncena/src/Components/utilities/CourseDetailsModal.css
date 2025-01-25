@@ -1,0 +1,35 @@
+.c_modal .sem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.c_modal .sem .input-container {
+    position: relative;
+    width: 100%;
+}
+
+.c_modal .sem .input-container input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.c_modal .sem .submit-button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+    border: none;
+    background-color: #ccc;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.c_modal .s_modal .modal-content{
+    max-width: 500px;
+}
